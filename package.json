@@ -1,0 +1,22 @@
+{
+  "name": "kathu-page",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Kathu page monorepo — Astro client + NestJS server.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "install:client": "pnpm --dir client install",
+    "install:server": "pnpm --dir server install",
+    "install:all": "pnpm install:client && pnpm install:server",
+    "dev:client": "pnpm --dir client dev",
+    "dev:server": "pnpm --dir server start:dev",
+    "dev": "pnpm dev:client & pnpm dev:server",
+    "build:client": "pnpm --dir client build",
+    "build:server": "pnpm --dir server build",
+    "build": "pnpm build:client && pnpm build:server",
+    "test:server": "pnpm --dir server test",
+    "lint:server": "pnpm --dir server lint"
+  }
+}
