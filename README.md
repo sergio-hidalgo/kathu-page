@@ -118,10 +118,7 @@ pnpm run format       # prettier
 NestJS resources:
 
 - [NestJS documentation](https://docs.nestjs.com) · [deployment guide](https://docs.nestjs.com/deployment)
-- [Discord channel](https://discord.gg/G7Qnnhy) · official video [courses](https://courses.nestjs.com/)
-- [NestJS Mau](https://mau.nestjs.com) (official AWS deployment platform: `pnpm install -g mau && mau deploy`)
 - [NestJS Devtools](https://devtools.nestjs.com) · [enterprise support](https://enterprise.nestjs.com) · [jobs board](https://jobs.nestjs.com)
-- Stay in touch: author [Kamil Myśliwiec](https://twitter.com/kammysliwiec), [@nestframework](https://twitter.com/nestframework), [LinkedIn](https://linkedin.com/company/nestjs), [support the project](https://docs.nestjs.com/support)
 
 ## Deployment
 
@@ -153,13 +150,13 @@ Claude Code runs. It is a filled-in adaptation of
 islands + TanStack Query · NestJS on Fastify · Supabase · Stripe hosted Checkout ·
 Tailwind v4 · Zustand · Zod).
 
-| Folder | Purpose |
-| --- | --- |
-| `workspace/issues/` | Issues to resolve |
-| `workspace/specifications/` | Specifications for spec-driven coding |
-| `workspace/ui-reference/home/` | Approved home page draft (`kathu-hero.html` + fonts/images) |
-| `workspace/ui-reference/book-modal/` | Booking modal step-by-step screenshots |
-| `workspace/skills/` | Always-on and callable skills (inventory below) |
+| Folder                               | Purpose                                                     |
+| ------------------------------------ | ----------------------------------------------------------- |
+| `workspace/issues/`                  | Issues to resolve                                           |
+| `workspace/specifications/`          | Specifications for spec-driven coding                       |
+| `workspace/ui-reference/home/`       | Approved home page draft (`kathu-hero.html` + fonts/images) |
+| `workspace/ui-reference/book-modal/` | Booking modal step-by-step screenshots                      |
+| `workspace/skills/`                  | Always-on and callable skills (inventory below)             |
 
 ### Entry points
 
